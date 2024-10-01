@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img1{
+   margin-left: 690px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-top: 15px;
+         
+    
+}
+a{
+    color:  #957554;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+a:hover{
+    opacity: 1;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    
+}
+select{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.input1{
+    background-color:  #DFAA5B;
+    color: white;
+
+}
+.head1{
+    background-image: url(./hDbCjHNdF48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding: 300px;
+    position: relative;
+
+}
+.head1 h1{
+    font-size: 50px; 
+    color: white;   
+    font-weight: bold;
+    
+}
+.head1 p{
+    color: white;
+    margin-top: 15px;
+}
+.btn1{
+    width: 170px;
+    height: 40px;
+    background-color: #DFAA5B;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+    color: white;
+}
+.btn1:hover{
+    background-color: #957554;
+    color: white;
+    cursor: pointer;
+}
+.btn1:active{
+    transform: scale(0.95);
+}
+.head2{
+    display: flex;
+    position: relative;
+    background-color: white;  
+    width: 900px; 
+    height: 80px;   
+    top: 170px; 
+}
+.head3{
+    display: flex;
+    position: absolute;
+    top: 110px;
+    font-size: 35px;  
+    margin-left: 200px;  
+
+}
+i{
+    color: #DFAA5B;
+    margin-left: 45px;
+}
+.head2 h2{
+    font-size: 60px;
+    color: #957554;
+    margin-left: 320px;
+}
+.ull{
+    display: flex;
+    position: absolute;
+    top: 110px;
+    font-size: 35px;  
+    margin-left: 150px;  
+    color: black;
+}
+.ull p{
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+    
+}
